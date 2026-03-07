@@ -1,0 +1,69 @@
+body{
+  margin:0;
+  font-family: "Georgia", serif;
+  background:#f3f1ec;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+#loading{
+  position:absolute;
+  inset:0;
+  background:#d8e3dc;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  transition:opacity 1s ease;
+}
+
+.logo{
+  font-size:2rem;
+  letter-spacing:3px;
+  color:#5f6f6b;
+}
+
+.card{
+  background:#ffffff;
+  padding:40px;
+  border-radius:16px;
+  box-shadow:0 8px 30px rgba(0,0,0,0.08);
+  width:320px;
+  text-align:center;
+  opacity:0;
+  transform:translateY(10px);
+  transition:all 0.5s ease;
+}
+
+.card.show{
+  opacity:1;
+  transform:translateY(0);
+}
+
+button{
+  display:block;
+  width:100%;
+  margin:10px 0;
+  padding:10px;
+  border:none;
+  background:#e8e4dc;
+  border-radius:8px;
+  font-family:inherit;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#d8e3dc;
+}
+
+.mode-btn{
+  background:#d8e3dc;
+}
+
+.back-btn{
+  margin-top:15px;
+  font-size:0.8rem;
+  background:none;
+  color:#777;
+}
