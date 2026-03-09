@@ -1,17 +1,18 @@
 body{
   margin:0;
-  font-family: "Georgia", serif;
+  font-family:"Georgia", serif;
   background:#f3f1ec;
+}
 
+#app{
   display:flex;
   justify-content:center;
   align-items:center;
-
-  min-height:100dvh;
+  min-height:100vh;
 }
 
 #loading{
-  position:absolute;
+  position:fixed;
   inset:0;
   background:#d8e3dc;
   display:flex;
@@ -26,13 +27,6 @@ body{
   color:#5f6f6b;
 }
 
-/* 追加 */
-#app{
-  width:100%;
-  display:flex;
-  justify-content:center;
-}
-
 .card{
   background:#ffffff;
   padding:40px;
@@ -41,7 +35,6 @@ body{
 
   width:90%;
   max-width:420px;
-  margin:auto;
 
   text-align:center;
 
@@ -59,7 +52,7 @@ button{
   display:block;
   width:100%;
   margin:10px 0;
-  padding:10px;
+  padding:12px;
   border:none;
   background:#e8e4dc;
   border-radius:8px;
