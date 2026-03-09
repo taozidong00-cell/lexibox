@@ -5,10 +5,8 @@ body{
 
   display:flex;
   justify-content:center;
-  align-items:flex-start;
 
   min-height:100vh;
-  padding-top:60px;
 }
 
 #loading{
@@ -32,10 +30,14 @@ body{
   padding:40px;
   border-radius:16px;
   box-shadow:0 8px 30px rgba(0,0,0,0.08);
+
   width:90%;
   max-width:420px;
-  margin:auto;
+
+  margin:80px auto;
+
   text-align:center;
+
   opacity:0;
   transform:translateY(10px);
   transition:all 0.5s ease;
