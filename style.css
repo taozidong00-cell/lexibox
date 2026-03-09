@@ -8,6 +8,12 @@ body{
   min-height:100vh;
 }
 
+app{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+
 #loading{
   position:absolute;
   inset:0;
