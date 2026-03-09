@@ -2,10 +2,13 @@ body{
   margin:0;
   font-family: "Georgia", serif;
   background:#f3f1ec;
+
   display:flex;
   justify-content:center;
-  align-items:center;
+  align-items:flex-start;
+
   min-height:100vh;
+  padding-top:60px;
 }
 
 #loading{
